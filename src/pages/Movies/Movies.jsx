@@ -36,7 +36,7 @@ const Movies = () => {
       setMovies([...data])
     })
   }, [search]);
-  console.log(movies)
+  // console.log(movies)
 
 
   return (
