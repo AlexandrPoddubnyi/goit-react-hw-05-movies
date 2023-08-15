@@ -7,7 +7,7 @@ import { MoviesList } from "components/MoviesList/MoviesList";
 
 const Movies = () => {
 
-  const [searchParams, setSearchParams] = useSearchParams();
+  const [searchParams] = useSearchParams();
   const [search, setSearch] = useState(() => searchParams.get('query') ?? '');
   const [movies, setMovies] = useState(null);
   
