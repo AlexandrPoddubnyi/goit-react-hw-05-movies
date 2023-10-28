@@ -61,22 +61,5 @@ const MovieDetails = () => {
     </main>
   );
 };
-
-
-
-// MovieDetails.propTypes = {
-//   movie: PropTypes.shape({
-//     title: PropTypes.string.isRequired,
-//     id: PropTypes.number.isRequired,
-//     vote_average: PropTypes.number.isRequired,
-//     poster_path: PropTypes.string,
-//     genres: PropTypes.arrayOf(
-//       PropTypes.shape({
-//         id: PropTypes.number.isRequired,
-//         name: PropTypes.string.isRequired
-//       })
-//     )
-//   })
-// };
      
 export default MovieDetails

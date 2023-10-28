@@ -10,14 +10,6 @@ const Movies = () => {
   const [searchParams] = useSearchParams();
   const [search, setSearch] = useState(() => searchParams.get('query') ?? '');
   const [movies, setMovies] = useState(null);
-  
-  // const movieName = searchparams.get("query") ?? "";
-
-
-  // const updateQueryString = (name) => {
-  //   const nestParams = name !== "" ? { name } : {};
-  //   setSearchparams(nestParams);
-  // };
 
 
   const handleSubmit = inputValue => {
@@ -36,8 +28,6 @@ const Movies = () => {
       setMovies([...data])
     })
   }, [search]);
-  // console.log(movies)
-
 
   return (
     <main>

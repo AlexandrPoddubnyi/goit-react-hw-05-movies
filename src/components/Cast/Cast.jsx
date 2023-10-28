@@ -14,7 +14,6 @@ const Cast = () => {
       setCasts(data)
     })
   }, [id]);
-  console.log(casts)
   
   return (
     <Container>
